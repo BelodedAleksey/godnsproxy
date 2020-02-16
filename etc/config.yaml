@@ -1,0 +1,32 @@
+netInterfaceName: Ethernet
+localDNSProxy: 127.0.0.1
+nameservers:
+  - 8.8.8.8:53
+  - 8.8.4.4:53
+blocklist:
+  - ya.ru
+  - mail.ru
+localaliases:
+  - my.beloded.io
+  - play.my.beloded.io
+  - www.my.beloded.io
+  - https://www.my.beloded.io
+  - https://www.play.my.beloded.io
+  - content.googleapis.com.my.beloded.io
+  - www.gstatic.com.my.beloded.io
+  - ssl.gstatic.com.my.beloded.io
+  - ogs.my.beloded.io
+  - accounts.my.beloded.io
+  - clients1.my.beloded.io
+  - clients2.my.beloded.io
+  - clients3.my.beloded.io
+  - clients4.my.beloded.io
+  - clients5.my.beloded.io
+  - clients6.my.beloded.io
+  - hny2a73k4jwm0.my.beloded.io
+  - 21p4u7390aqx6vygzajr67rpya968gtx7umg.my.beloded.io
+  - rgfup91mgjfbpmm5pp8davg.my.beloded.io
+blockAddress4: 0.0.0.0
+blockAddress6: 0:0:0:0:0:0:0:0
+configUpdate: true
+updateInterval: 1m
