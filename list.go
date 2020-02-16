@@ -40,8 +40,13 @@ func (b *List) AddList(servers []string) (count int) {
 }
 
 func (b *List) Contains(server string) bool {
-	_, ok := b.data[server]
-	return ok
+	for k := range b.data {
+		if strings.HasSuffix(server, k) {
+			return true
+		}
+	}
+	//_, ok := b.data[server]
+	return false
 }
 
 func UpdateList(configList []string) *List {
